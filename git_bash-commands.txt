@@ -5,7 +5,7 @@ Linux terminal (GitBash) commands
 3) Зайти в папку = cd terminal
 4) Создать 3 папки = mkdir dir_1 dir_2 dir_3
 5) Зайти в любую папку = cd dir_1 
-6) Создать 5 файлов (3 txt, 2 json) = clear 01.txt 02.txt 03.txt 04.json 05.json
+6) Создать 5 файлов (3 txt, 2 json) = touch 01.txt 02.txt 03.txt 04.json 05.json
 7) Создать 3 папки = mkdir kot_1 kot_2 kot_3
 8) Вывести список содержимого папки = ls -la
 9) + Открыть любой txt файл = cat > 01.txt
