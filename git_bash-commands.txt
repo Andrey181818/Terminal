@@ -193,7 +193,7 @@ Linux terminal (GitBash) commands. Terminal HW_2
    $ cd inner_dir_1; tail -4 tF_5.txt; cd ..    или    tail -4 inner_dir_1/tF_5.txt
 
 34. Вывести в терминал 4 первые строки любого текстового файла
-   $ cd inner_dir_1; head -4 tF_5.txt; cd .. или head -4 inner_dir_1/tF_5.txt
+   $ cd inner_dir_1; head -4 tF_5.txt; cd ..    или     head -4 inner_dir_1/tF_5.txt
 
 35. Команда в одну строку. Создать папку и создать текстовый файл с содержимым
    $ mkdir kot_1 && cat >> kot_1/tf_6.txt
