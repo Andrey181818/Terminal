@@ -132,14 +132,10 @@ Linux terminal (GitBash) commands. Terminal HW_2
    Ctrl + C
 
 14. Сделать текстовый файл tf_4.txt в котором будет 15 строк
-   $ cat > tf_4.txt
-   ...
-   Ctrl + C
+   $ for i in {1..15}; do echo "This is line $i" >> tf_4.txt; done
 
 15. Сделать текстовый файл tF_5.txt в котором будет 13 строк
-   $ cat > tF_5.txt
-   ...
-   Ctrl + C
+   $ for i in {1..13}; do echo "This is line $i" >> tF_5.txt; done
 
 16. Вывести список всех файлов в папке
    $ ls -la
