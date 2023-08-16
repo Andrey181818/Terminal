@@ -160,10 +160,10 @@ Linux terminal (GitBash) commands. Terminal HW_2
    $ find -iname '*tf*'
 
 23. Найти строки в файлах где есть комбинация букв “sec” в текущей папке
-   $ grep -r sec .
+   $ grep -r sec .   или    grep sec *
 
 24. Найти строки в файлах где есть комбинация букв “sec” в любом регистре в текущей папке
-   $ grep -ri sec .
+   $ grep -ri sec .   или    grep -i sec *
 
 25. Найти строки в файлах где есть только комбинация букв “sec” в текущей папке
    $ grep -rw sec .
@@ -172,7 +172,7 @@ Linux terminal (GitBash) commands. Terminal HW_2
    $ grep -riw sec .
 
 27. Найти строки в файлах где есть комбинация букв “second” в текущей папке
-   $ grep -r second .
+   $ grep -r second .   или    grep 'second' *
 
 28. Найти строки в файлах где есть комбинация букв “second” в любом регистре в текущей папке
    $ grep -ri second .
