@@ -40,13 +40,13 @@ Linux terminal (GitBash) commands. Terminal HW_1
         $ cd dir_1
 
 13) Переместить любые 2 файла, которые вы создали, в любую другую папку
-   $ mv 04.json 05.json /d/03_Ksendzov/terminal/dir_1/
+   $ mv 04.json 05.json ./kot_1 (в папку вглубь)    или    mv 04.json 05.json ../ (в папку выше)
 
 14) Скопировать любые 2 файла, которые вы создали, в любую другую папку
-   $ cp 04.json 05.json kot_1/
+   $ cp 01.txt 02.txt ./kot_2 (в папку вглубь)    или    cp 01.txt 02.txt ../ (в папку выше)
 
 15) Найти файл по имени
-   $ find 05.json
+   $ find -name 05.json (выводит путь относительно текущей директории)
 
 16) Просмотреть содержимое в реальном времени
    $ tail -f 01.txt
@@ -69,7 +69,7 @@ Linux terminal (GitBash) commands. Terminal HW_1
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
    $ cd terminal; mkdir dir_1 dir_2 dir_3; cd dir_1;
-touch 01.txt 02.txt 03.txt 04.json 05.json; mkdir kot_1 kot_2 kot_3; ls -la; mv 04.json 05.json /d/03_Ksendzov/terminal/dir_1/
+touch 01.txt 02.txt 03.txt 04.json 05.json; mkdir kot_1 kot_2 kot_3; ls -la; mv 04.json 05.json ./kot_1
 
 
 
